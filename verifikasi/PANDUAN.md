@@ -60,6 +60,27 @@ drive.mount("/content/drive")
 !cat VERSI.txt
 ```
 
+## Alternatif: Kaggle Notebooks (gratis ±30 jam GPU per minggu)
+Cocok bila kuota GPU Colab habis. Mode *Save Version* berjalan di latar
+belakang hingga 12 jam, jadi browser boleh ditutup.
+
+1. Buka https://www.kaggle.com, lalu **Create → New Notebook**.
+2. Panel kanan **Settings**: *Accelerator* = **GPU T4 x2**, *Internet* = **On**
+   (perlu verifikasi nomor telepon sekali).
+3. Tempel sel berikut, lalu klik **Save Version → Save & Run All (Commit)**:
+```python
+!git clone -q https://github.com/bsnegara/deep-learning-dengan-python /kaggle/working/kode
+!pip -q install nbclient nbformat keras-hub keras-tuner fastapi uvicorn httpx datasets
+%cd /kaggle/working/kode/notebook
+!python uji_notebook.py bab07 bab08 bab09 bab10 bab11 bab12 bab13 bab14 bab15 bab16 bab17
+%cd /kaggle/working/kode/verifikasi
+!python jalankan_penuh.py
+!python cocokkan.py
+!rm -rf /kaggle/working/kode/notebook/data /kaggle/working/kode/verifikasi/data
+```
+4. Setelah selesai (±8 jam), buka versi tersebut → tab **Output**, lalu unduh
+   `kode/verifikasi/laporan_verifikasi.md`.
+
 ## Langkah 4 — Uji asap (cepat, epoch dipangkas)
 ```python
 !python jalankan_semua.py
