@@ -1,0 +1,13 @@
+# Skrip NumPy (cukup untuk sebagian besar listing di folder babNN/)
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.4
+matplotlib>=3.8
+# Keras 3 dan backend (untuk listing Keras dan notebook)
+keras>=3.5
+jax[cpu]>=0.4.30        # ganti ke jax[cuda12] untuk GPU NVIDIA
+tensorflow>=2.17        # dibutuhkan tf.data, LiteRT, dan sebagian notebook
+torch>=2.4              # Bab 12-13 dan backend PyTorch
+keras-hub>=0.17         # model pralatih (Bab 9-10)
+fastapi>=0.110          # Bab 17
+uvicorn>=0.29
