@@ -4,7 +4,7 @@ Kode, notebook, dan perangkat verifikasi untuk buku
 **_Deep Learning dengan Python: Konsep, Kode, dan Penerapan Modern_**
 (Benny Sukma Negara, Teknik Informatika, UIN Sultan Syarif Kasim Riau).
 
-<!-- Lencana DOI Zenodo ditambahkan setelah rilis pertama -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23831607.svg)](https://doi.org/10.5281/zenodo.23831607)
 
 > *Companion code for an Indonesian-language deep learning textbook: runnable
 > NumPy listings, 36 Keras 3 / PyTorch notebooks for Google Colab, and a
@@ -88,4 +88,5 @@ python jalankan_semua.py
 ## Sitasi
 
 Bila memakai kode ini, silakan sitasi melalui berkas `CITATION.cff`
-(tombol **Cite this repository** di GitHub) atau DOI Zenodo-nya.
+(tombol **Cite this repository** di GitHub) atau DOI Zenodo:
+[10.5281/zenodo.23831607](https://doi.org/10.5281/zenodo.23831607).
