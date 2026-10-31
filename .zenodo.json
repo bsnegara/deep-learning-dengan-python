@@ -1,0 +1,22 @@
+{
+  "title": "Deep Learning dengan Python: Kode Pendamping",
+  "upload_type": "software",
+  "description": "<p>Kode pendamping buku <em>Deep Learning dengan Python: Konsep, Kode, dan Penerapan Modern</em> (Benny Sukma Negara, Teknik Informatika, UIN Sultan Syarif Kasim Riau): skrip listing NumPy, 36 notebook Keras 3/PyTorch untuk Google Colab, dan perangkat verifikasi angka naskah.</p><p>Companion code for an Indonesian-language deep learning textbook.</p>",
+  "creators": [
+    {
+      "name": "Negara, Benny Sukma",
+      "affiliation": "UIN Sultan Syarif Kasim Riau",
+      "orcid": "0000-0001-8455-0912"
+    }
+  ],
+  "license": "MIT",
+  "language": "ind",
+  "keywords": ["deep learning", "Keras", "PyTorch", "machine learning", "education", "Indonesian"],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/fchollet/deep-learning-with-python-notebooks",
+      "relation": "isDerivedFrom",
+      "resource_type": "software"
+    }
+  ]
+}

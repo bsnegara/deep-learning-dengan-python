@@ -1,0 +1,11 @@
+__pycache__/
+.ipynb_checkpoints/
+notebook/_uji/
+notebook/data/
+verifikasi/hasil/
+verifikasi/data/
+verifikasi/laporan_verifikasi.md
+*.keras
+*.weights.h5
+*.tflite
+.venv/

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Bila memakai kode ini, silakan sitasi sebagai berikut."
+title: "Deep Learning dengan Python: Kode Pendamping"
+type: software
+authors:
+  - family-names: Negara
+    given-names: Benny Sukma
+    orcid: "https://orcid.org/0000-0001-8455-0912"
+    affiliation: "Program Studi Teknik Informatika, UIN Sultan Syarif Kasim Riau"
+version: "0.9.0"
+date-released: "2026-10-31"
+license: MIT
+repository-code: "https://github.com/bsnegara/deep-learning-dengan-python"
+keywords:
+  - deep learning
+  - Keras
+  - PyTorch
+  - pendidikan
+  - bahasa Indonesia
+abstract: >-
+  Kode pendamping buku "Deep Learning dengan Python: Konsep, Kode, dan
+  Penerapan Modern": skrip listing NumPy, 36 notebook Keras 3/PyTorch untuk
+  Google Colab, dan perangkat verifikasi angka naskah.
