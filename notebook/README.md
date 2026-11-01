@@ -40,6 +40,6 @@ Unduhan data cukup besar (±3 GB total), jadi sebaiknya uji per kelompok bab.
 | 12 | `bab12_01_simclr_cifar10` | PyTorch | 60 mnt |
 | 13 | `bab13_01_fixmatch`, `bab13_02_mixmatch` | PyTorch | 45–90 mnt |
 | 14 | `bab14_01_generasi_teks_lstm`, `bab14_02_deepdream`, `bab14_03_transfer_gaya`, `bab14_04_vae`, `bab14_05_gan` | Keras | 5–40 mnt |
-| 15 | `bab15_01_ddpm_fashion_mnist` | Keras | 25 mnt |
+| 15 | `bab15_01_ddpm_fashion_mnist` | Keras | 25–40 mnt |
 | 16 | `bab16_01_evaluasi_data_tidak_seimbang`, `bab16_02_evaluasi_multilabel` | Keras + scikit-learn | 5–10 mnt |
 | 17 | `bab17_01_ekspor_kuantisasi_layanan` | Keras/TF, TFLite, FastAPI | 10 mnt |

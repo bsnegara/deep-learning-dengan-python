@@ -33,6 +33,12 @@ python jalankan_semua.py
 **Di Google Colab:** klik tautan *Buka di Colab* pada tabel di bawah, lalu pilih
 **Runtime → Change runtime type → T4 GPU**.
 
+## Status verifikasi
+
+Ke-32 angka di naskah yang berasal dari notebook sudah dicocokkan dengan hasil
+eksekusi penuh di Kaggle (GPU T4, 1 November 2026): **32/32 sesuai** setelah
+empat angka naskah diperbarui. Laporan: [`verifikasi/laporan_2026-11-01.md`](verifikasi/laporan_2026-11-01.md).
+
 ## Daftar notebook
 
 | Bab | Notebook | Colab |
