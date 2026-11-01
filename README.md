@@ -37,7 +37,7 @@ python jalankan_semua.py
 
 Ke-32 angka di naskah yang berasal dari notebook sudah dicocokkan dengan hasil
 eksekusi penuh di Kaggle (GPU T4, 1 November 2026): **32/32 sesuai** setelah
-empat angka naskah diperbarui. Laporan: [`verifikasi/laporan_2026-11-01.md`](verifikasi/laporan_2026-11-01.md).
+empat angka naskah diperbarui. Uji asap: **36/36 notebook lolos**. Laporan: [`verifikasi/laporan_2026-11-01.md`](verifikasi/laporan_2026-11-01.md).
 
 ## Daftar notebook
 
