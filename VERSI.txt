@@ -1,1 +1,1 @@
-dl-python versi 2026-10-31b (fallback IMDB/GloVe, perbaikan bab03_03)
+dl-python versi 2026-11-01 (verifikasi 32/32, perbaikan unduhan bab09_02/11_01/14_02/14_03)
