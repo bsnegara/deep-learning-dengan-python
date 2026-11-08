@@ -80,6 +80,15 @@ empat angka naskah diperbarui. Uji asap: **36/36 notebook lolos**. Laporan: [`ve
 | 16 | `bab16_02_evaluasi_multilabel` | [Buka di Colab](https://colab.research.google.com/github/bsnegara/deep-learning-dengan-python/blob/main/notebook/bab16_02_evaluasi_multilabel.ipynb) |
 | 17 | `bab17_01_ekspor_kuantisasi_layanan` | [Buka di Colab](https://colab.research.google.com/github/bsnegara/deep-learning-dengan-python/blob/main/notebook/bab17_01_ekspor_kuantisasi_layanan.ipynb) |
 
+## Penggunaan AI
+
+Sesuai pedoman COPE, penyusunan kode di repositori ini dibantu oleh Claude
+(model Claude Opus, Anthropic): draf skrip NumPy, notebook, dan skrip
+verifikasi. Alat AI tidak dicantumkan sebagai penulis. Seluruh kode ditinjau
+dan dijalankan ulang oleh penulis di Google Colab dan Kaggle, dan penulis
+bertanggung jawab penuh atas isinya. Rinciannya ada di halaman *Pernyataan
+Penggunaan Kecerdasan Artifisial* dalam buku.
+
 ## Lisensi dan atribusi
 
 - Kode di repositori ini: **MIT License** (lihat `LICENSE`).
