@@ -1,1 +1,1 @@
-dl-python versi 2026-11-01b (verifikasi 32/32, uji asap 36/36)
+dl-python versi 2026-11-13 (istilah diseragamkan; verifikasi 32/32, uji asap 36/36)

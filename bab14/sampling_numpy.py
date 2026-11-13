@@ -8,7 +8,7 @@ def softmax(z):
     return e / e.sum()
 
 for suhu in [0.5, 1.0, 2.0]:  #<1>
-    print(f"suhu {suhu}:", np.round(softmax(logit / suhu), 3))
+    print(f"temperature {suhu}:", np.round(softmax(logit / suhu), 3))
 
 def top_k(p, k):  #<2>
     q = np.where(p >= np.sort(p)[-k], p, 0.0)

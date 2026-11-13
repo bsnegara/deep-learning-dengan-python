@@ -16,8 +16,8 @@ def atensi(Q, K, V):
 
 if __name__ == "__main__":
     rng = np.random.default_rng(0)
-    Q = rng.normal(size=(4, 8))       # 4 kueri berdimensi 8
-    K = rng.normal(size=(6, 8))       # 6 kunci
+    Q = rng.normal(size=(4, 8))       # 4 query berdimensi 8
+    K = rng.normal(size=(6, 8))       # 6 key
     V = rng.normal(size=(6, 16))      # 6 nilai berdimensi 16
     keluaran, bobot = atensi(Q, K, V)
     print(keluaran.shape, bobot.sum(axis=-1))  # (4, 16) [1. 1. 1. 1.]
